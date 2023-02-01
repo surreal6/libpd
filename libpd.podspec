@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'libpd'
-  spec.version = '0.13.2'
+  spec.version = '0.13.3'
 
   spec.license = { :type => 'Standard Improved BSD License', :file => 'License.txt' }
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   spec.source = {
     :git => 'https://github.com/surreal6/libpd.git',
-    #:tag => spec.version.to_s,
+    :tag => spec.version.to_s,
     :submodules => true
   }
 
